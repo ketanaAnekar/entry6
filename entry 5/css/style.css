@@ -1,0 +1,30 @@
+body{
+    font-family: "brother-1816", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 360%;
+    color: rgb(255, 179, 0);
+    text-align: center;
+    background-color: red;
+    
+    
+}
+#box{
+    background-color: black;
+    width:1920px;
+    height:200px;
+    
+}
+
+img {
+    transition: transform .7s ease-in-out;
+    width: 70%;
+    height:70%;
+  }
+  img:hover {
+    transform: rotate(360deg);
+  }
+  .position{
+    position: relative;
+    left: 13%
+  }
